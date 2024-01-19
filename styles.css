@@ -1,0 +1,195 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li 
+{
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the header styles */
+header 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0; /* Change this to your preferred background color */
+}
+
+/* Style the logo */
+.logo img 
+{
+  max-width: 200px; /* Adjust the width as needed */
+}
+
+/* Style the top buttons */
+.top-buttons 
+{
+  text-align: center;
+}
+
+.top-buttons button 
+{
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: red; /* Change this to your preferred button color */
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.top-buttons button:hover 
+{
+  background-color: #2980b9; /* Change this to the button's hover color */
+}
+
+#rih
+{
+  text-align: center;
+  color: red;
+  font-weight: Impact;
+  font-weight: bold;
+}
+
+#rih2
+{
+  text-align: left;
+  color: red;
+  font-weight: Impact;
+  font-weight: bold;
+}
+
+#rih3
+{
+  text-align: right;
+  color: red;
+  font-weight: Impact;
+  font-weight: bold;
+}
+
+#h
+{
+  background-color: black;
+}
+
+#bg
+{
+  background-color: black;
+}
+
+#ct, #ct2
+{
+  text-align: center;
+  color: red;
+}
+
+form 
+{
+  max-width: 400px;
+  margin: 0 auto;
+  background: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for labels */
+label 
+{
+  display: block;
+  margin-bottom: 6px;
+  color: white;
+}
+
+/* Style for input fields and textarea */
+input[type="text"],
+input[type="email"],
+textarea 
+{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for submit button */
+input[type="submit"]
+{
+  background-color: red;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover 
+{
+  background-color: #45a049;
+}
+
+hr
+{
+  color: red;
+}
+
+p 
+{
+  text-align: center;
+  color: red;
+  font-family: Baskerville;
+  font-weight: bold;
+}
+
+#imageleft
+{
+
+}
+
+#imageright
+{
+
+}
+
+#tl
+{
+  color: red;
+  text-align: left;
+}
+
+#staff
+{
+  width: 500px;
+  height: 500px;
+}
+
+#gameH
+{
+  text-align: left;
+  color: red;
+  font-size: 20px;
+}
+
+/* Style for the highlighted border */
+#myForm
+{
+  border: 2px solid red; /* You can change the color by adjusting the hex or color name */
+  padding: 50px; /* Adjust padding as needed */
+  border-radius: 20px; /* Optional: Adds rounded corners to the border */
+}
+
+.bigger-text
+{
+  font-size: 16px;
+}
+
+.title-header
+{
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  font-size: 70px;
+}
